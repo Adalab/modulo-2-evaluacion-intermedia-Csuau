@@ -6,19 +6,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Evaluación intermedia mod.2</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 
 <body>
-    <main>
-        <h1>Adivina el número</h1>
-        <form>
-            <label>Introduce aquí el número</label>
-            <input class="js_number" type="text" name="number" autocomplete="off">
-            <button class="js_btn">Prueba</button>
+    <main class="main">
+
+        <h1 class="title">Adivina el número</h1>
+        <form class="form">
+            <label class="text">Introduce aquí el número:</label>
+            <input class="js_number number" type="text" name="number" autocomplete="off">
+            <button class="btn js_btn">Prueba</button>
 
         </form>
-        <p>Pista: <span class="js_clue">Escribe el número y dale a Prueba</span> </p>
-        <p>Número de intentos: <span class="js_attemps">0</span> </p>
+        <p class="border text clue">Pista: <span class="js_clue">Escribe el número y dale a Prueba</span> </p>
+        <p class="border text attemps">Número de intentos: <span class="js_attemps">0</span> </p>
+
     </main>
     <script src="main.js"></script>
 </body>
