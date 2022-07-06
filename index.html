@@ -12,15 +12,15 @@
     <main>
         <h1>Adivina el número</h1>
         <form>
-            <label for="">Introduce aquí el número</label>
-            <input type="text" name="number">
-            <button>Prueba</button>
+            <label>Introduce aquí el número</label>
+            <input class="js_number" type="text" name="number" autocomplete="off">
+            <button class="js_btn">Prueba</button>
 
         </form>
-        <p>Pista: Escribe el número y dale a Prueba</p>
-        <p>Número de intentos:0</p>
+        <p>Pista: <span class="js_clue">Escribe el número y dale a Prueba</span> </p>
+        <p>Número de intentos: <span class="js_attemps">0</span> </p>
     </main>
-    <script type="text/javascript" src=".main.js"></script>
+    <script src="main.js"></script>
 </body>
 
 </html>
